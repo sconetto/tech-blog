@@ -1,0 +1,152 @@
+baseurl = "/"
+languageCode = "en-us"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+theme = "terminal"
+pagination.pagerSize = 10
+
+# Required for Chroma and the custom syntax highlighting.
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = true
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+  enableGitInfo = true
+
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # whether to show a page's estimated reading time
+  readingTime = true # default
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  Toc = true # default
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
+
+  # Set date/time format for posts
+  # This will impact the date/time displayed on
+  # index.html, the posts list page, and on posts themselves
+  # This value can also be configured per-post on front matter
+  # If you have any issues with the timezone rendering differently
+  # than you expected, please ensure your timezone is correctly set
+  # on your server.
+  # This value can be customized according to Hugo documentation:
+  # https://gohugo.io/functions/time/format/
+  # Default value (no changes needed):
+  # dateFormat = "2006-01-02"
+  # Example format, with date, time, and timezone abbreviation:
+  dateFormat = "2006-01-02 15:04:06 MST"
+
+[languages]
+  [languages.en]
+    title = "Sconetto's Blog"
+    languageName = "English 🇺🇸"
+    languageCode = "en-US"
+    contentDir = "content/en-us"
+    weight = 1
+
+    [languages.en.params]
+      subtitle = "A place where I gather some random thoughts and ideas"
+      owner = "João Pedro Sconetto"
+      keywords = "blog, personal, portfolio, programming, technology, random thoughts, ideas"
+      copyright = "© 2026 João Pedro Sconetto"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "minute(s) read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Sconetto's Blog"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          url = "/about"
+
+  [languages.br]
+    title = "Blog do Sconetto"
+    languageName = "Português 🇧🇷"
+    languageCode = "pt-BR"
+    contentDir = "content/pt-br"
+    weight = 2
+
+    [languages.br.params]
+      subtitle = "Um lugar onde eu reuno algumas ideias e pensamentos aleatórios"
+      owner = "João Pedro Sconetto"
+      keywords = "blog, personal, portfolio, programação, tecnologia, ideias aleatórias, pensamentos"
+      copyright = "© 2026 João Pedro Sconetto"
+      menuMore = "Mostrar mais"
+      readMore = "Ler mais"
+      readOtherPosts = "Ler outros posts"
+      newerPosts = "Posts mais recentes"
+      olderPosts = "Posts mais antigos"
+      missingContentMessage = "Página não encontrada..."
+      missingBackButtonLabel = "Voltar para a página inicial"
+      minuteReadingTime = "minuto(s) de leitura"
+      words = "palavras"
+      TocTitle = "Índice"
+
+      [languages.br.params.logo]
+        logoText = "Blog do Sconetto"
+        logoHomeLink = "/"
+
+      [languages.br.menu]
+        [[languages.br.menu.main]]
+          identifier = "sobre"
+          name = "Sobre"
+          url = "/br/sobre"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[module]
+  # In case you would like to make changes to the theme and keep it locally in you repository,
+  # uncomment the line below (and correct the local path if necessary).
+  # --
+  # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
+[[module.imports]]
+  path = 'github.com/panr/hugo-theme-terminal/v4'
