@@ -87,12 +87,12 @@ pagination.pagerSize = 10
     languageCode = "en-US"
     contentDir = "content/en-us"
     weight = 1
+    subtitle = "A place where I gather some random thoughts and ideas"
+    owner = "João Pedro Sconetto"
+    keywords = "blog, personal, portfolio, programming, technology, random thoughts, ideas"
+    copyright = "© 2026 João Pedro Sconetto"
 
     [languages.en.params]
-      subtitle = "A place where I gather some random thoughts and ideas"
-      owner = "João Pedro Sconetto"
-      keywords = "blog, personal, portfolio, programming, technology, random thoughts, ideas"
-      copyright = "© 2026 João Pedro Sconetto"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
@@ -119,12 +119,12 @@ pagination.pagerSize = 10
     languageCode = "pt-BR"
     contentDir = "content/pt-br"
     weight = 2
+    owner = "João Pedro Sconetto"
+    keywords = "blog, personal, portfolio, programação, tecnologia, ideias aleatórias, pensamentos"
+    copyright = "© 2026 João Pedro Sconetto"
+    subtitle = "Um lugar onde eu reuno algumas ideias e pensamentos aleatórios"
 
     [languages.br.params]
-      subtitle = "Um lugar onde eu reuno algumas ideias e pensamentos aleatórios"
-      owner = "João Pedro Sconetto"
-      keywords = "blog, personal, portfolio, programação, tecnologia, ideias aleatórias, pensamentos"
-      copyright = "© 2026 João Pedro Sconetto"
       menuMore = "Mostrar mais"
       readMore = "Ler mais"
       readOtherPosts = "Ler outros posts"
@@ -138,7 +138,7 @@ pagination.pagerSize = 10
 
       [languages.br.params.logo]
         logoText = "Blog do Sconetto"
-        logoHomeLink = "/"
+        logoHomeLink = "/br"
 
       [languages.br.menu]
         [[languages.br.menu.main]]
