@@ -4,6 +4,9 @@ author = "João Pedro Sconetto"
 date = "2026-01-02T14:39:25+01:00"
 description = "Como configurar rapidamente um sistema de documentação com implementação automática para seus projetos."
 cover = "/img/project-documentation-made-easy.jpg"
+translationKey = "pt-br"
+tags = ["documentação", "mkdocs", "python", "github-pages", "deploy", "tutorial"]
+keywords = ["sistema de documentação", "mkdocs", "python", "github pages", "deploy automático", "documentação de projeto"]
 +++
 
 Aqui vou mostrar como você pode criar facilmente um sistema de documentação para seu projeto usando Python.

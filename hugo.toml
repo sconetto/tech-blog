@@ -73,6 +73,13 @@ pagination.pagerSize = 10
   # Example format, with date, time, and timezone abbreviation:
   dateFormat = "2006-01-02 15:04:06 MST"
 
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
 [languages]
   [languages.en]
     title = "Sconetto's Blog"

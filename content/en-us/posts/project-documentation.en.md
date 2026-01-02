@@ -5,6 +5,8 @@ date = "2026-01-02T14:39:25+01:00"
 description = "How to quickly set up a documentation system with auto deployment for your projects."
 cover = "/img/project-documentation-made-easy.jpg"
 translationKey = "en-us"
+tags = ["documentation", "mkdocs", "python", "github-pages", "deployment", "tutorial"]
+keywords = ["documentation system", "mkdocs", "python", "github pages", "automated deployment", "project documentation"]
 +++
 
 Here I'll show you how you can easily create a documentation system for your project using Python.
