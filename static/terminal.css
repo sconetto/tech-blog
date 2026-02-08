@@ -239,6 +239,18 @@ ol ol {
   margin-top: 0;
 }
 
+.table-of-contents ul,
+.table-of-contents ol {
+  margin: 0 0 0 4ch;
+}
+
+.table-of-contents ul ul,
+.table-of-contents ul ol,
+.table-of-contents ol ul,
+.table-of-contents ol ol {
+  margin-bottom: 0;
+}
+
 li::marker {
   color: var(--accent);
 }
@@ -246,7 +258,9 @@ li::marker {
 ul li,
 ol li {
   position: relative;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 code,
