@@ -17,17 +17,18 @@ I created this blog as a way to to some ideas out there, to the world, in hopes 
 
 ## About Me
 
-I'm a Software Engineer, by graduation, but have been working a lot as a leader/manager in the past years. I love exploring new technologies, solving complex problems, and building things, being that a raspberry pi with batocera installed or just an arduino as a real-time clock (sometimes I also build some legos).
+I'm a Software Engineer, by graduation, but have been working a lot as a leader/manager in the past years. I love exploring new technologies, solving complex problems, and building things, being that a retro console with raspberry pi and batocera installed or just an arduino as a real-time clock alongside some breadboards (sometimes I also build some Legos, mainly racing cars).
 
 ## What I Do
 
-Currently, I work as a team leader at Joby Aviation where I focus mainly on factory systems. I'm particularly interested in:
+Currently, I am searching for my next work challenge (#OpenForWor). I'm particularly interested in:
 
-- People Management
 - Python
-- Code Quality
+- Code Quality & Standards
 - Innovative Architectures
 - CI/CD
+- Infra/SysAdmin
+- People Management
 
 ## Skills & Technologies
 
@@ -37,30 +38,30 @@ Here are some of the technologies and tools I work with:
 
 - Python
 - Javascript
-- React/Vue
+- React/Vue/Angular
 - Ansible
 - Docker
 - Shell Scripting
 - HTML/XML/JSON
+- Dart/Flutter
 - And in lower degree with some side projects (Golang, Rust, Ruby)
 
 **Tools & Platforms:**
 
 - Raycast
-- Cursor
 - Fork (Git/GitHub)
 - GitHub Actions
-- Datadog
+- Datadog/Sentry
 - Notion
-- PSQL
-- Databricks
+- SQL (PostgreSQL, MySQL, SQLite, MongDB, and more)
+- Superset/Databricks
 - Slack
 
 ## Interests
 
 When I'm not coding, I enjoy:
 
-- Photgraphy 📷 [[My Portifolio](https://photos.sconetto.me)]
+- Photography 📷 [[My Portfolio](https://photos.sconetto.me)]
 - Gaming 🎮
 - Racing 🏎️ (F1, Endurance, WRC, Stock Car/DTM)
 - Music 🎵 🎸
@@ -71,7 +72,7 @@ When I'm not coding, I enjoy:
 I'd love to connect with you! You can find me on:
 
 - **GitHub**: [sconetto](https://github.com/sconetto)
-- **LinkedIn**: [sconetto](https://www.linkedin.com/in/jsconetto)
+- **LinkedIn**: [sconetto](https://www.linkedin.com/in/sconetto)
 - **Email**: [work@sconetto.me](mailto:work@sconetto.me)
 - **Website**: [sconetto.me](https://sconetto.me)
 

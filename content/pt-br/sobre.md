@@ -13,22 +13,23 @@ translationKey = "pt-br"
 
 ## Olá! 👋
 
-Bem-vindo ao meu blog! Meu nome é **João Pedro Sconetto**, e sou apaixonado por tecnologia, desenvolvimento de software, fotografia, jogos, corridas e muito mais.
-Criei este blog como uma forma de compartilhar algumas ideias por aí, para o mundo, na esperança de poder partilhar pelo menos um pouco de conhecimento com a comunidade.
+Bem-vindo ao meu blog! Meu nome é **João Pedro Sconetto** e sou apaixonado por tecnologia, desenvolvimento de software, fotografia, jogos, corridas e muito mais.
+Criei este blog como uma forma de compartilhar algumas ideias com o mundo, na esperança de poder compartilhar pelo menos um pouco do meu conhecimento com a comunidade.
 
 ## Sobre Mim
 
-Sou Engenheiro de Software, por formação, mas tenho trabalhado muito como líder/gerente nos últimos anos. Adoro explorar novas tecnologias, resolver problemas complexos e construir coisas, seja um raspberry pi com batocera ou apenas um arduino como um relógio em tempo real (às vezes também construo alguns legos).
+Sou engenheiro de software de formação, mas tenho trabalhado muito como líder técnico/gerente nos últimos anos. Adoro explorar novas tecnologias, resolver problemas complexos e construir coisas, seja um console retrô com Raspberry Pi e Batocera instalados ou apenas um Arduino como relógio em tempo real ao lado de algumas _protoboards_ (às vezes também construo alguns Legos, principalmente carros de corrida).
 
 ## O Que Faço
 
-Atualmente, trabalho como líder de equipe na Joby Aviation, onde foco principalmente em sistemas de fábrica. Tenho particular interesse em:
+Atualmente, estou procurando meu próximo desafio profissional (#OpenForWork). Tenho interesse especial em:
 
-- Gestão de Pessoas
 - Python
-- Qualidade de Código
+- Padrões e Qualidade de Código
 - Arquiteturas Inovadoras
 - CI/CD
+- Infra/SysAdmin
+- Gestão de Pessoas
 
 ## Habilidades e Tecnologias
 
@@ -38,23 +39,23 @@ Aqui estão algumas das tecnologias e ferramentas com as quais trabalho:
 
 - Python
 - Javascript
-- React/Vue
+- React/Vue/Angular
 - Ansible
 - Docker
 - Shell Scripting
 - HTML/XML/JSON
+- Dart/Flutter
 - E em menor grau com alguns projetos paralelos (Golang, Rust, Ruby)
 
 **Ferramentas e Plataformas:**
 
 - Raycast
-- Cursor
 - Fork (Git/GitHub)
 - GitHub Actions
-- Datadog
+- Datadog/Sentry
 - Notion
-- PSQL
-- Databricks
+- SQL (PostgreSQL, MySQL, SQLite, MongDB, and more)
+- Superset/Databricks
 - Slack
 
 ## Interesses
@@ -72,7 +73,7 @@ Quando não estou programando, gosto de:
 Adoraria me conectar com você! Você pode me encontrar em:
 
 - **GitHub**: [sconetto](https://github.com/sconetto)
-- **LinkedIn**: [sconetto](https://www.linkedin.com/in/jsconetto)
+- **LinkedIn**: [sconetto](https://www.linkedin.com/in/sconetto)
 - **Email**: [work@sconetto.me](mailto:work@sconetto.me)
 - **Website**: [sconetto.me](https://sconetto.me)
 
