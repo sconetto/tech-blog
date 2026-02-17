@@ -19,17 +19,20 @@ A personal tech blog built with [Hugo](https://gohugo.io/) using the [Terminal](
 ## Getting Started
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd tech-blog
    ```
 
 2. Install dependencies (if using Hugo modules):
+
    ```bash
    hugo mod get
    ```
 
 3. Start the development server:
+
    ```bash
    hugo server
    ```
@@ -38,7 +41,7 @@ A personal tech blog built with [Hugo](https://gohugo.io/) using the [Terminal](
 
 ## Project Structure
 
-```
+```bash
 tech-blog/
 ├── content/
 │   ├── en-us/          # English content
@@ -58,6 +61,7 @@ tech-blog/
    - Portuguese: `content/pt-br/posts/seu-post-name.md`
 
 2. Add front matter to your post:
+
    ```markdown
    +++
    title = "Your Post Title"
@@ -72,6 +76,7 @@ tech-blog/
    ```
 
 3. Use the archetype for a template:
+
    ```bash
    hugo new posts/your-post-name.md
    ```
@@ -89,6 +94,7 @@ The generated files will be in the `public/` directory, ready to be deployed.
 ## Deployment
 
 The `public/` directory contains the static site that can be deployed to:
+
 - GitHub Pages
 - Netlify
 - Vercel
@@ -97,6 +103,7 @@ The `public/` directory contains the static site that can be deployed to:
 ## Configuration
 
 Main configuration is in `hugo.toml`. Key settings include:
+
 - Site title and subtitle
 - Language configuration
 - Theme settings
@@ -111,11 +118,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **João Pedro Sconetto**
 
 - GitHub: [@sconetto](https://github.com/sconetto)
-- LinkedIn: [jsconetto](https://www.linkedin.com/in/jsconetto)
+- LinkedIn: [sconetto](https://www.linkedin.com/in/sconetto)
 - Email: [work@sconetto.me](mailto:work@sconetto.me)
 
 ## Acknowledgments
 
 - [Hugo](https://gohugo.io/) - Static site generator
 - [Terminal Theme](https://github.com/panr/hugo-theme-terminal) - Hugo theme by [panr](https://github.com/panr)
-
