@@ -40,12 +40,13 @@ Aqui estão algumas das tecnologias e ferramentas com as quais trabalho:
 - Python
 - Javascript
 - React/Vue/Angular
+- Go
+- Dart/Flutter
 - Ansible
 - Docker
 - Shell Scripting
 - HTML/XML/JSON
-- Dart/Flutter
-- E em menor grau com alguns projetos paralelos (Golang, Rust, Ruby)
+- E em menor grau com alguns projetos paralelos (Rust, Ruby)
 
 **Ferramentas e Plataformas:**
 

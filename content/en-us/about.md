@@ -39,12 +39,13 @@ Here are some of the technologies and tools I work with:
 - Python
 - Javascript
 - React/Vue/Angular
+- Go
+- Dart/Flutter
 - Ansible
 - Docker
 - Shell Scripting
 - HTML/XML/JSON
-- Dart/Flutter
-- And in lower degree with some side projects (Golang, Rust, Ruby)
+- And in lower degree with some side projects (Rust, Ruby)
 
 **Tools & Platforms:**
 
