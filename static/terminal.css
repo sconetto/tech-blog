@@ -400,3 +400,14 @@ th,
 button {
   font-weight: 600;
 }
+
+/* Footer centering */
+.footer__inner {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Language selector dropdown - prevent wrapping */
+.menu__dropdown > li a {
+  white-space: nowrap;
+}
