@@ -352,4 +352,8 @@ pyrightconfig.json
 # MacOS
 .DS_Store
 
+# Editor and IDE
+.vscode/
+.opencode/
+
 # End of https://www.toptal.com/developers/gitignore/api/hugo,python,node,go
