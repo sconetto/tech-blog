@@ -5,7 +5,7 @@ author = "João Pedro Sconetto"
 description = "A little info about myself"
 cover = "/img/me.jpeg"
 tags = ["about", "software engineering", "team leadership", "technology", "development"]
-keywords = ["João Pedro Sconetto", "software engineer", "team leader", "Python", "JavaScript", "React", "Vue", "Docker", "Ansible", "CI/CD", "factory systems", "people management", "code quality", "Joby Aviation", "photography", "gaming", "racing"]
+keywords = ["João Pedro Sconetto", "software engineer", "team leader", "Python", "JavaScript", "React", "Vue", "Docker", "Ansible", "CI/CD", "factory systems", "people management", "code quality", "photography", "gaming", "racing"]
 readingTime = false
 translationKey = "en-us"
 +++
