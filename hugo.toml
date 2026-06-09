@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+locale = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
@@ -83,8 +83,8 @@ pagination.pagerSize = 10
 [languages]
   [languages.en]
     title = "Sconetto's Blog"
-    languageName = "English 🇺🇸"
-    languageCode = "en-US"
+    label = "English 🇺🇸"
+    locale = "en-US"
     contentDir = "content/en-us"
     weight = 1
     subtitle = "A place where I gather some random thoughts and ideas"
@@ -115,8 +115,8 @@ pagination.pagerSize = 10
 
   [languages.br]
     title = "Blog do Sconetto"
-    languageName = "Português 🇧🇷"
-    languageCode = "pt-BR"
+    label = "Português 🇧🇷"
+    locale = "pt-BR"
     contentDir = "content/pt-br"
     weight = 2
     owner = "João Pedro Sconetto"
