@@ -355,5 +355,6 @@ pyrightconfig.json
 # Editor and IDE
 .vscode/
 .opencode/
+.omo/
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,python,node,go
